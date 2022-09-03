@@ -7,12 +7,12 @@ namespace Basico_de_Net.Models
 {
     public class Pessoa
     {
-        public string nome { get; set; }
-        public int idade   { get; set; }
+        public string Nome { get; set; }
+        public int Idade   { get; set; }
 
-        public void apresentar(){
+        public void Apresentar(){
             
-            Console.WriteLine("Meu nome é: "+{nome}+" e minha idade é: "+{idade});
+            Console.WriteLine($"Meu nome é: {Nome} e minha idade é: {Idade}");
 
         }
     }
