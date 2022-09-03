@@ -10,6 +10,10 @@ namespace Basico_de_Net.Models
         public string nome { get; set; }
         public int idade   { get; set; }
 
-        
+        public void apresentar(){
+            
+            Console.WriteLine("Meu nome é: "+{nome}+" e minha idade é: "+{idade});
+
+        }
     }
 }
